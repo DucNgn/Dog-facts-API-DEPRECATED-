@@ -10,9 +10,9 @@ with open("data.json") as json_file:
     data = json.load(json_file)
     dataLength = len(data)
 
-@app.route('/', methods=['GET'])
+@app.route('/')
 def home():
-    return '''<h1>Dog Facts API</h1>'''
+    return '''<h1>Welcome to Dog Facts API</h1>'''
 
 
 @app.route('/api/v1/resources/dogs/all', methods=['GET'])
@@ -39,4 +39,5 @@ def api_number():
         
     return jsonify(results)
 
-app.run()
+if __name == '__main__':
+    app.run()
