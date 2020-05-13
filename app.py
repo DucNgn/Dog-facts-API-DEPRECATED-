@@ -39,5 +39,5 @@ def api_number():
         
     return jsonify(results)
 
-if __name == '__main__':
+if __name__ == '__main__':
     app.run()
