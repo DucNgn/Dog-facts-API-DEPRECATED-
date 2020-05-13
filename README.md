@@ -1,5 +1,4 @@
 # Dog Facts API
-[![Build Status](https://travis-ci.com/DukeNgn/Dog-facts-API.svg?token=qRp4ZypW5t4ep8Ngys3D&branch=master)](https://travis-ci.com/DukeNgn/Dog-facts-API)
 
 An API that will return random facts about dog.
 

@@ -33,7 +33,8 @@ def api_number():
             results.append(data[randrange(dataLength)])
     elif 'index' in request.args:
         requestIndex = int(request.args['index'])
-        results.append(data[requestIndex])
+        if requestIndex >= 0 and requestIndex < dataLength:
+            results.append(data[requestIndex])
     else:
         return page_not_found(404)
         
