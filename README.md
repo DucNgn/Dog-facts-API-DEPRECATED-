@@ -16,9 +16,12 @@ An API that will return random facts about dog.
 > Note: The project is being hosted by Heroku with free dyno; thus, there will be potential delay the first time you make a request (app went to sleep after dyno does not receive traffic in 1 hour). Please be patient, and the call will be faster next time.
 
 ## Rebuild the project:
-+ Clone the repo
-+ Run `pip install requirements.txt`
-+ Run `python3 app.py`
++ Clone the repo.
++ Run `python3 -m venv .env` to create a virtual environment.
++ Run `source .env/bin/activate` to activate the virtual environment.
++ Run `pip install requirements.txt`.
++ Run `python3 app.py`.
++ App starts at port 5000 by default, but can be configured with a `.env` file. 
 
 ## Example:
 + `https://dog-facts-api.herokuapp.com/api/v1/resources/dogs?number=1` returns:

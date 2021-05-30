@@ -9,5 +9,9 @@
 .venv/
 venv/
 
+# Repo file
+README.md
+LICENSE
+
 # Python files
 __pycache__
