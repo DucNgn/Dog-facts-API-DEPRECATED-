@@ -3,7 +3,7 @@
 An API that will return random facts about dog.
 
 ## Inspirations 
-+ The project is based on the database from [dog-api](https://github.com/kinduff/dog-api). The `dog-api` is deprecated and support is minimal. 
++ The project is a port of [kinduff/dog-api](https://github.com/kinduff/dog-api) using Python with Flask.
 + There is still no other dog facts api while there are many APIs supporting cat facts. It is unfair !!!
 + I'm a dog person. Cats are jerks.
 
