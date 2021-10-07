@@ -1,3 +1,4 @@
 Flask==1.1.2
 pytest==5.4.2
 python-dotenv==0.17.1
+flask-cors==3.0.10

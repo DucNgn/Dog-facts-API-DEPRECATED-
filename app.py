@@ -1,10 +1,12 @@
 import flask
+from flask_cors import CORS
 from random import randrange
 import json
 
 from config import PORT
 
 app = flask.Flask(__name__)
+cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 app.config["DEBUG"] = True
 
 with open("data.json") as json_file:
