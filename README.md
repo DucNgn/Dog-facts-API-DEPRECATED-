@@ -1,4 +1,7 @@
-# Dog Facts API
+This project is deprecated and has been migrated to a new repo: [Dog-Facts-API-v2](https://github.com/DukeNgn/Dog-Facts-API-v2) with support for CORS, built with Python and FastAPI. This repository will be archived soon. The heroku api service will be kept alive for a while before terminated.
+
+# Dog Facts API (DEPRECATED)
+
 
 An API that will return random facts about dog.
 
